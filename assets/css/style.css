@@ -51,6 +51,17 @@
 
 }
 
+
+#intro-section .jumbotron .follow{
+
+	font-size: 20px;
+	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	margin-top: 20px;
+
+}
+
 .vertical-center{
 
 	height: 300px;
