@@ -50,15 +50,19 @@
 
 }
 
+#intro-section .jumbotron .share{
 
-#intro-section .jumbotron .follow{
-
-	font-size: 20px;
+	font-size: 30px;
 	text-transform: uppercase;
 	font-family: 'Lato', sans-serif;
-	font-weight: 400;
+	font-weight: 300;
 	margin-top: 20px;
 
+}
+
+#intro-section .jumbotron .share-img{
+
+	width: 8%;
 }
 
 .vertical-center{
@@ -66,6 +70,14 @@
 	position: relative;
 	top: 40%;
 	transform: translateY(-50%);
+}
+
+.vertical-down{
+
+	position: relative;
+	top: 70%;
+	transform: translateY(-50%);
+
 }
 
 #typeform .typeform-widget{
