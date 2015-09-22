@@ -77,7 +77,7 @@
 .vertical-down{
 
 	position: relative;
-	top: 70%;
+	margin-top: 55%;
 	transform: translateY(-50%);
 
 }
