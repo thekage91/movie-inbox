@@ -4,6 +4,8 @@
 
 	margin: 0px;
 	width: 100%;
+	background: rgb(237, 200, 60);
+
 }
 
 #intro-section .jumbotron{
@@ -40,16 +42,21 @@
 	margin-top: 15px;
 	width: 200px;
 	border-radius: 3px;
-	border-width: 2px;
-	background-color: rgba(237, 85, 17, 0.5);
-	border-color: rgb(237, 85, 17);
+	border-width: 1px;
+	background-color: rgba(237, 85, 17, 1);
+	border-color: #000;
 	/*background: rgb(237, 200, 60);*/
 	text-transform: uppercase;
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 	font-size: 20px;
 	color: white;
+}
 
+#intro-section .jumbotron .btn-howto{
+
+	background: transparent;
+	border-width: 1;
 }
 
 #intro-section .jumbotron .share{
@@ -65,6 +72,12 @@
 #intro-section .jumbotron .share-img{
 
 	width: 8%;
+}
+
+#intro-section hr{
+
+	width: 40%;
+
 }
 
 .vertical-center{
