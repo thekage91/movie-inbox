@@ -43,8 +43,13 @@
 	width: 200px;
 	border-radius: 3px;
 	border-width: 1px;
+<<<<<<< HEAD
 	background-color: rgba(237, 85, 17, 1);
 	border-color: #000;
+=======
+	background-color: rgb(237, 85, 17);
+	border-color: black;
+>>>>>>> origin/gh-pages
 	/*background: rgb(237, 200, 60);*/
 	text-transform: uppercase;
 	font-family: 'Lato', sans-serif;
