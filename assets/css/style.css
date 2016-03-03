@@ -1,11 +1,12 @@
+body{
 
+}
 
 .container{
 
 	margin: 0px;
 	width: 100%;
 	background: rgb(237, 200, 60);
-
 }
 
 #intro-section .jumbotron{
@@ -15,8 +16,10 @@
 	height: 100%;
 	width: 100%;
 	text-align: center;
-	background: rgb(237, 200, 60);
+	/*background: rgb(237, 200, 60); */ 
+	/*background-image: url("imdb-bck.jpg");
 	/*background: rgb(237, 85, 17);*/
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),  url(../img/imdb-bck.jpg);
 	color: white;
 }
 
@@ -24,7 +27,7 @@
 
 	text-transform: uppercase;
 	font-family: 'Lato', sans-serif;
-	font-size: 60px;
+	font-size: 50px;
 	font-weight: 900;
 }
 
@@ -37,26 +40,45 @@
 }
 
 
-#intro-section .jumbotron .btn{
+#intro-section .jumbotron .btnl{
 
 	margin-top: 15px;
 	width: 200px;
-	border-radius: 3px;
-	border-width: 1px;
-	background-color: rgb(237, 85, 17);
-	border-color: black;
+	border-radius: 2px;
+	border-width: 2px;
+	background-color: rgba(255, 255, 255, 1);
+	border-color: white;
 	/*background: rgb(237, 200, 60);*/
 	text-transform: uppercase;
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 	font-size: 20px;
-	color: white;
+	color: black;
 }
 
 #intro-section .jumbotron .btn-howto{
 
 	background: transparent;
 	border-width: 1;
+}
+
+#intro-section .input-group input{
+
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+
+	border-radius: 2px;
+}
+
+#intro-section .input-group button{
+
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	color: black;
+	
+	border-top-right-radius: 2px;
+	border-bottom-right-radius: 2px;
+
 }
 
 #intro-section .jumbotron .share{
@@ -100,6 +122,10 @@
 	height: 100%;
 }
 
+.content-newsletter{
+
+	background: rgba(255, 255, 255, 0.7)
+}
 
 
 
