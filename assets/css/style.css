@@ -1,5 +1,14 @@
 body{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),  url(../img/imdb-bck.jpg);
+	color: white;
+}
 
+a{
+	color: red;
+}
+
+a:hover{
+	color: white;
 }
 
 .container{
@@ -9,6 +18,12 @@ body{
 	background: rgb(237, 200, 60);
 }
 
+#intro-section{
+
+	height: 100%;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),  url(../img/imdb-bck.jpg);
+	color: white;
+}
 #intro-section .jumbotron{
 
 	border-radius: 0px;
@@ -21,6 +36,7 @@ body{
 	/*background: rgb(237, 85, 17);*/
 	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),  url(../img/imdb-bck.jpg);
 	color: white;
+	position: relative;
 }
 
 #intro-section .vertical-center > .title{
@@ -62,6 +78,10 @@ body{
 	border-width: 1;
 }
 
+#intro-section .jumbotron .mail-caption{
+	font-size: 15px;
+}
+
 #intro-section .input-group input{
 
 	font-family: 'Lato', sans-serif;
@@ -84,22 +104,32 @@ body{
 #intro-section .jumbotron .share{
 
 	font-size: 30px;
-	text-transform: uppercase;
 	font-family: 'Lato', sans-serif;
-	font-weight: 300;
-	margin-top: 20px;
-
+	font-weight: 100;
 }
 
-#intro-section .jumbotron .share-img{
+#intro-section .jumbotron .share .btn{
 
-	width: 8%;
+	background: transparent;
+	border-width: 0px;
 }
 
 #intro-section hr{
 
 	width: 40%;
 
+}
+
+#intro-section .jumbotron .footer{
+
+	position: relative;
+	bottom: -190px;
+}
+
+.bottom-align{
+
+	position: relative;
+	bottom: -190px;
 }
 
 .vertical-center{
